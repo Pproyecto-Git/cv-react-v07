@@ -1,36 +1,30 @@
-# cv-react-gillson
+# cv-react-v06
 
-## Nombre del proyecto
-CV modular en React (Vite) — Gillson Andrey Martinez Sandoval
-
-## Captura de pantalla
-![alt text](image.png)
+## Proyecto
+CV dinámico en React (Vite)
 
 ## Descripción
-Hoja de vida modular implementada en React utilizando componentes funcionales anidados. Cada sección (Cabecera, Perfil, Experiencia, Educación) está en su propio componente y se integran desde `App.jsx`.
+Pequeña aplicación de CV que usa renderizado de listas y condicional para mostrar:
+- Experiencia profesional (array dinámico con 10 entradas)
+- Educación (lista dinámica)
+- Stack de tecnologías (renderizado condicional por tipo con colores)
 
-## Requisitos
-- Node.js (LTS recomendado)
-- npm
-- Git
+## Instrucciones
+1. Instalar dependencias:
+   ```bash
+   npm install
+   ```
+2. Ejecutar en modo desarrollo:
+   ```bash
+   npm run dev
+   ```
+3. Abrir la URL que muestra Vite (ej: http://localhost:5173)
 
-## Instalación y ejecución
-```bash
-git clone https://github.com/TU_USUARIO/cv-react-gillson.git
-cd cv-react-gillson
-npm install
-npm run dev
-Luego abrir http://localhost:5173 (u otra URL que muestre Vite).
+## Commits sugeridos
+- feat: componente Experiencia dinamico con 10 cargos definidos
+- feat: componente Educacion dinamico con formación complementaria
+- feat: feat: componente StackTecnologias dinamico y con renderizado condicional
+- docs: actualizar README con instrucciones
 
-Commits
-Todos los commits reflejan la creación de cada componente:
-
-feat: componente CabeceraCV con datos personales actualizados
-
-feat: componente Perfil con descripción personalizada
-
-feat: componente Experiencia con 4 cargos definidos
-
-feat: componente Educacion con formación complementaria
-
-chore: integrar componentes en App y añadir estilos básicos
+## Captura
+(Inserta aquí una captura de la aplicación ejecutándose)
