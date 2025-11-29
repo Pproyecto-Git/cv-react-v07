@@ -27,4 +27,4 @@ Pequeña aplicación de CV que usa renderizado de listas y condicional para most
 - docs: actualizar README con instrucciones
 
 ## Captura
-(Inserta aquí una captura de la aplicación ejecutándose)
+![imagen correspondiente](image-1.png)
