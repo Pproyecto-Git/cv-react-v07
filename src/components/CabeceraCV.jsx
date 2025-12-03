@@ -1,14 +1,13 @@
 import React from 'react'
 
-export default function CabeceraCV({ nombre, cargo, ciudad, contacto }) {
-  const { email, telefono } = contacto || {};
+export default function CabeceraCV() {
   return (
     <header className="section" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
       <div>
-        <h1 style={{ margin: 0 }}>{nombre}</h1>
-        <p className="small" style={{ margin: '0.25rem 0 0 0' }}>{cargo}</p>
+        <h1 style={{ margin: 0 }}>Gillson Andrey Martinez Sandoval</h1>
+        <p className="small" style={{ margin: '0.25rem 0 0 0' }}>Programador de software</p>
         <p className="small" style={{ margin: '0.25rem 0 0 0' }}>
-          {telefono} — {email} — {ciudad}
+          1111196865 — gilanmarsa@gmail.com — Medellín
         </p>
       </div>
       <div style={{ textAlign: 'right' }}>
