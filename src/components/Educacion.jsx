@@ -5,7 +5,7 @@ export default function Educacion({ estudios }) {
     return (
       <section className="section">
         <h3>Educación</h3>
-        <p>No se ha registrado formación académica.</p>
+        <p>No se ha registrado formación academica.</p>
       </section>
     )
   }
